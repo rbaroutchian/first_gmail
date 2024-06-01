@@ -1,0 +1,49 @@
+body {
+    background-image: url("https://cdn-production.checkfront.com/wp-content/uploads/2022/04/Block-Background-v2-Large-Blue.jpg");
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: "B Badr", "B Badr", sans-serif; /* یک فونت پیش‌فرض را انتخاب کنید */
+
+
+}
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+h1, h2, h3, p {
+    font-family: "B Mitra", Helvetica, sans-serif; /* فونت متفاوتی برای عناوین و متن‌های عمومی استفاده کنید */
+}

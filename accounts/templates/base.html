@@ -1,0 +1,36 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}وبسایت شما{% endblock %}</title>
+    <!-- لینک به فایل‌های CSS و سایر فایل‌های استایل -->
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <!-- لینک به فایل‌های جاوااسکریپت -->
+    <script src="{% static 'js/scripts.js' %}"></script>
+</head>
+<body>
+    <!-- هدر -->
+    <header>
+        <h1>وبسایت شما</h1>
+        <!-- ناوبری -->
+        <nav>
+            <ul>
+                <li><a href="{% url 'home' %}">خانه</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- محتوا -->
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+
+    <!-- فوتر -->
+    <footer>
+        <p>کپی رایت &copy; 2024 وبسایت شما</p>
+    </footer>
+</body>
+</html>

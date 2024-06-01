@@ -1,0 +1,47 @@
+/* email_list_styles.css */
+body{
+    font-family: 'B Badr', sans-serif;
+
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #333;
+}
+
+.email-list {
+    list-style: none;
+    padding: 0;
+}
+
+.email-item {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.email-item strong {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.email-item span {
+    color: #666;
+}
+
+.email-item hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

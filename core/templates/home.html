@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحه اصلی</title>
+    <link rel="stylesheet" href="{% static 'css/home_style.css' %}">
+</head>
+<body>
+    <div class="container">
+        <!-- اینجا محتوای صفحه اصلی شما قرار می‌گیرد -->
+        <h1>به اولین پروژه برنامه نویسی با پایتون رامین باروتچیان خوش آمدید!</h1>
+        <p>این یک سایت نمونه برای مدیریت ایمیل ها می باشد .</p>
+        <p>شما میتوانید با انتخاب گزینه ثبت نام ، کاربری خود را ایجاد کنید .</p>
+
+        <!-- ایجاد دکمه‌های لینک به صفحات ثبت نام و ورود -->
+        <div class="button-container">
+            <a href="{% url 'signup' %}" class="btn btn-primary">ثبت نام</a>
+            <a href="{% url 'signin' %}" class="btn btn-secondary">ورود</a>
+        </div>
+    </div>
+</body>
+</html>
